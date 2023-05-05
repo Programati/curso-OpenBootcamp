@@ -7,7 +7,7 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
 </head>
-<body class="">
+<body class="bg-info">
     <header class="mb-5 p-3 text-center bg-primary fw-bold container-fluid">
         INICIO
     </header>
@@ -41,6 +41,69 @@
                     <input type="file" class="form-control">
                 </form>
 
+            </div>
+        </div>
+    </div>
+
+    <!-- FORMULARIO RESPONSIVE -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Matias" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="ema" id="correo" placeholder="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control""></textarea>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <label for="form-label">Estado Civil</label>
+                                    <div class="form-check">
+                                        <input type="radio" name="estado-civil" id="soltero" class="form-check-input">
+                                        <label for="soltero" class="form-check-label">Soltero</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" name="estado-civil" id="casado" class="form-check-input">
+                                        <label for="casado" class="form-check-label">Casado</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <label for="form-label">Pais</label>
+                                    <select name="pais" id="pais" class="form-select">
+                                        <option value="argentina">Argentina</option>
+                                        <option value="mexico">Mexico</option>
+                                        <option value="peru">Peru</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="">
+                                <div class="form-check mb-3">
+                                    <input type="checkbox" name="terminos" id="terminos" class="form-check-input">
+                                    <label for="terminos" class="form-check-label">Acepto los terminos y condiciones</label>
+                                </div>
+                                <button type="button" class="btn btn-primary col-12">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                </form>
             </div>
         </div>
     </div>
