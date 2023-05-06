@@ -10,7 +10,7 @@ ul #elemento-1{
     font-size: 2rem;
 }
 
-/*Archivo 5_FlexBox*/
+/*Archivo 5_FLEXBOX*/
 .contenedor-img {
     display: flex;
     flex-wrap: wrap;
@@ -20,4 +20,26 @@ ul #elemento-1{
     height: 300px;
     width: 300px;
     margin: .1rem;
+}
+
+/* Archivo 6_SELECTORES */
+.contenedor-boton {
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button::before {
+    content: 'Pasar por encima';
+}
+button:hover {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover::before {
+    content: '';
+    content: '"¡Hecho!"';
 }
