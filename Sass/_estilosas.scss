@@ -1,0 +1,29 @@
+@use "../Sass/mixins";
+$text-color-li: #ef1166;
+$colortexto: #abcd45;
+
+h1{
+    @include mixins.formato-texto($colortexto);
+}
+p{
+    @include mixins.formato-texto();
+}
+
+.listado {
+    width: 10rem;
+    background-color: aquamarine;
+    padding: .6rem;
+
+    ul {
+        margin: 0 0.5rem;
+
+        li {
+            list-style: none;
+            color: $text-color-li;
+
+            &:hover {
+                color: rgb(130, 204, 27);
+            }
+        }
+    }
+}

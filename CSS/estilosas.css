@@ -1,0 +1,53 @@
+h1 {
+  color: #abcd45;
+  background-color: rgb(143, 104, 180);
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+p {
+  color: #f1f1f1;
+  background-color: rgb(143, 104, 180);
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.6rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+  color: #ef1166;
+}
+.listado ul li:hover {
+  color: rgb(130, 204, 27);
+}
+
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #444;
+  border: 2px solid #555;
+  border-radius: 10%;
+  font-weight: bolder;
+}
+.btn:hover, .btn-2:hover {
+  background-color: rgb(240, 8, 54);
+  color: #ccc;
+  cursor: pointer;
+}
+
+.btn-2 {
+  border-radius: 30%;
+}
+
+/*Estilos*/
+/*Componentes*/
+/*mixins*/
+
+/*# sourceMappingURL=estilosas.css.map */
